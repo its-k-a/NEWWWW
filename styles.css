@@ -1,0 +1,28 @@
+/* Example: Navigation styling */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #yourcolor;
+    text-decoration: underline;
+}
+
+/* Example: Using classes and IDs */
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+}
+
+#main-header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
