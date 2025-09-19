@@ -1,22 +1,88 @@
-.essential {
-    color: ;
-    font-size: ;
-    font-weight: ;
+body
+{
+    background-color: red
 }
 
 
+#fruits-section {
+    background-color: black;
+    color:orange;
+    padding: 20px;
+}
+
+#character-section {
+    background-color: black;
+    color: orange;
+    padding: 20px;
+}
+
+.essential {
+    color: orange;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px;
+}
+
 .important {
-    background-color: ;
-    font-size: ;
-    padding: ;
+    color: black;
+    background-color: orange;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.summary {
+    color: black;
+    background-color: orange;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.beginning {
+    background-color: white;
+    color: orange;
+    font-style: italic;
+    padding: 10px;
+}
+
+.finished {
+    background-color: black;
+    color: white;
+    border-top: 2px solid orange;
+    padding: 10px;
 }
 
 p {
+    color: black;
+    background-color: red;
     font-size: 16px;
+    padding: 10px;
 }
+
 ul {
-
+    background-color: red;
+    font-weight: bold;
+    padding: 15px;
+    list-style-type: square;
 }
-li {
 
+li {
+    color: black;
+    font-weight: bold;
+    background-color: red;
+    padding: 5px;
+}
+
+h1 {
+    color: orange;
+    background-color: black;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
