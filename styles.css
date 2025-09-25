@@ -1,5 +1,4 @@
-body
-{
+body {
     text-align: center;
     background-color: red
 }
@@ -7,7 +6,7 @@ body
 
 #fruits-section {
     background-color: black;
-    color:orange;
+    color: orange;
     padding: 20px;
 }
 
@@ -29,6 +28,10 @@ body
     background-color: orange;
     padding: 10px;
     border: 1px solid black;
+}
+
+img.important {
+    width: 500px;
 }
 
 .summary {
