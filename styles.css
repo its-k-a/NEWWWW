@@ -6,6 +6,28 @@ body {
     padding: 0;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    padding: 15px;
+}
+
+nav a {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 14px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    transform: scale(1.15);
+    color: white;
+}
+
+
 #fruits-section {
     background-color: black;
     color:orange;
